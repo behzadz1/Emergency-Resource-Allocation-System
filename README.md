@@ -1,11 +1,15 @@
-=======
-# 🆘 Emergency Resource Allocation System (Console App)
+
+
+## `README.md` — Emergency Resource Allocation System
+
+```markdown
+# Emergency Resource Allocation System (Console App)
 
 A modular, object-oriented desktop application designed to simulate and optimize emergency resource allocation in real-time crisis scenarios.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Log and manage emergency incidents (location, type, priority, required resources)
 - Add and track resources (ambulance, fire truck, etc.)
@@ -23,13 +27,13 @@ A modular, object-oriented desktop application designed to simulate and optimize
 
 ###  Modules
 
-| Layer       | Description                                          |
-|-------------|------------------------------------------------------|
-| `models/`   | Data classes: `Incident`, `Resource`, `enums.py`     |
-| `services/` | Core logic: `ResourceManager` handles allocation     |
-| `utils/`    | Utilities: object factories, JSON I/O, zone helpers  |
-| `tests/`    | Unit tests using `unittest` for all components       |
-| `main.py`   | Console interface — interactive CLI for coordinators |
+| Layer      | Description |
+|------------|-------------|
+| `models/`  | Data classes: `Incident`, `Resource`, `enums.py` |
+| `services/`| Core logic: `ResourceManager` handles allocation |
+| `utils/`   | Utilities: object factories, JSON I/O, zone helpers |
+| `tests/`   | Unit tests using `unittest` for all components |
+| `main.py`  | Console interface — interactive CLI for coordinators |
 
 ###  Design Patterns
 
@@ -41,13 +45,13 @@ A modular, object-oriented desktop application designed to simulate and optimize
 
 ##  OOP Design & Principles
 
-| Principle        | Implementation                                   |
-|------------------|--------------------------------------------------|
-| Abstraction      | Exposed high-level methods for external use      |
-| Encapsulation    | State managed through internal methods           |
-| Polymorphism     | Enum string overrides, extensible class methods  |
-| Inheritance      | Resource/Incident classes are extensible         |
-| Modularity       | Code split into focused, reusable modules        |
+| Principle        | Implementation |
+|------------------|----------------|
+| Abstraction      | Exposed high-level methods for external use |
+| Encapsulation    | State managed through internal methods |
+| Polymorphism     | Enum string overrides, extensible class methods |
+| Inheritance      | Resource/Incident classes are extensible |
+| Modularity       | Code split into focused, reusable modules |
 | SOLID Principles | Full adherence in structure and responsibilities |
 
 ---
@@ -72,8 +76,26 @@ Run all tests:
 
 ```bash
 python -m unittest discover tests
+```
 
+Test files include:
 
+- `test_models.py` – Resource & Incident behavior
+- `test_resource_manager.py` – Allocation & reassignment logic
+- `test_edge_cases.py` – Failures & edge scenarios
+- `test_helpers.py` – Distance logic
+
+---
+
+##  Dashboard Export
+
+Use option `9` in the menu to export a full system summary to `dashboard_summary.txt` (with filters optional in option `10`).
+
+---
+
+## 📁 Project Structure
+
+```bash
 emergency_allocator/
 ├── main.py
 ├── models/
@@ -99,10 +121,10 @@ emergency_allocator/
 
 ```
 
-How to Run
+---
+
+## 👨‍💻 How to Run
 
 ```bash
 python main.py
 ```
-
->>>>>>> f478926 (Commit all changes)
