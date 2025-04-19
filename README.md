@@ -84,7 +84,7 @@ Test files include:
 
 ## Dashboard Export
 
-Use option `9` in the menu to export a full system summary to `dashboard_summary.txt` (with filters optional in option `10`).
+Use option `8` in the menu to export a full system summary to `dashboard_summary.txt` (with filters optional in option `10`).
 
 ---
 
