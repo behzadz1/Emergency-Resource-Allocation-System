@@ -1,3 +1,5 @@
+
+```markdown
 # Emergency Resource Allocation System (Console App)
 
 A modular, object-oriented desktop application designed to simulate and optimize emergency resource allocation in real-time crisis scenarios.
@@ -71,3 +73,56 @@ Run all tests:
 
 ```bash
 python -m unittest discover tests
+```
+
+Test files include:
+
+- `test_models.py` – Resource & Incident behavior
+- `test_resource_manager.py` – Allocation & reassignment logic
+- `test_edge_cases.py` – Failures & edge scenarios
+- `test_helpers.py` – Distance logic
+
+---
+
+## Dashboard Export
+
+Use option `9` in the menu to export a full system summary to `dashboard_summary.txt` (with filters optional in option `10`).
+
+---
+
+## 📁 Project Structure
+
+```bash
+emergency_allocator/
+├── main.py
+├── models/
+│   ├── incident.py
+│   ├── resource.py
+│   └── enums.py
+├── services/
+│   └── resource_manager.py
+├── utils/
+│   ├── factory.py
+│   ├── helpers.py
+│   └── persistence.py
+├── tests/
+│   ├── test_models.py
+│   ├── test_resource_manager.py
+│   ├── test_edge_cases.py
+│   └── test_helpers.py
+├── data/
+│   ├── incidents.json
+│   └── resources.json
+├── dashboard_summary.txt  # (Generated)
+└── README.md
+```
+
+---
+
+## 👨‍💻 How to Run
+
+```bash
+python main.py
+```
+```
+
