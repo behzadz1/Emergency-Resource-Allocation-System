@@ -1,0 +1,9 @@
+[
+    {
+        "resource_id": 1,
+        "resource_type": "Ambulance",
+        "location": "zone2",
+        "is_available": true,
+        "assigned_to_incident": null
+    }
+]

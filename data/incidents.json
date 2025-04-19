@@ -1,0 +1,14 @@
+[
+    {
+        "incident_id": 1,
+        "location": "",
+        "emergency_type": "fire",
+        "priority": "HIGH",
+        "required_resources": [
+            "Ambulance"
+        ],
+        "allocated_resources": [],
+        "status": "Resolved",
+        "timestamp": "2025-04-15T16:10:37.438593"
+    }
+]

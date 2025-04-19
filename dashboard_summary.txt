@@ -1,0 +1,20 @@
+Report generated on: 2025-04-15 16:53:33
+===== DASHBOARD SUMMARY =====
+
+ Filters Applied: All / All / All
+
+ Total Filtered Incidents: 1
+   - Pending    : 0
+   - In Progress: 0
+   - Resolved   : 1
+
+ Incident Priorities:
+   - High    : 1
+
+ Incidents per Zone:
+   -           : 1
+
+ Resources: 1
+   - Available : 1
+   - Assigned  : 0
+==============================
