@@ -1,5 +1,3 @@
-
-```markdown
 # Emergency Resource Allocation System (Console App)
 
 A modular, object-oriented desktop application designed to simulate and optimize emergency resource allocation in real-time crisis scenarios.
@@ -73,8 +71,8 @@ Run all tests:
 
 ```bash
 python -m unittest discover tests
-```
 
+```
 Test files include:
 
 - `test_models.py` – Resource & Incident behavior
@@ -123,6 +121,5 @@ emergency_allocator/
 
 ```bash
 python main.py
-```
 ```
 
