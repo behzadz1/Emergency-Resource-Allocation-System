@@ -1,1 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.cache
+.pytest_cache/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
